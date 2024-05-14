@@ -1,0 +1,325 @@
+<style type="text/css">
+<!--
+
+body{
+	font-size: 10pt;
+	color: #999;
+	text-align: center;
+	margin: 0px;
+	background: #f2f2f2;	
+	padding: 0px;
+}
+
+img {
+	border: none;
+}
+
+p {
+	color: #333;
+	font-family: tahoma,geneva, sans-serif;
+	padding: 0px 0px 0px 0px;
+	font-size: 10pt;
+	margin: 0px;
+}
+
+h1{
+	color: #c63;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	margin: 0px 5p 0px 5px;
+	font-variant: small-caps;
+}
+
+h2{
+	color: #c63;
+	font-size: 14px;
+	text-align: left;
+	font-variant: small-caps;
+
+
+
+	}
+
+h3{
+	color: #036;
+	text-align: left;
+	padding: 4px 0px 0px 0px;
+	margin: 0px;
+	line-height: 14px;
+	font-variant: small-caps;
+
+}
+
+a{
+	color: #069;
+}
+
+a:hover{
+	color: #09f;
+}
+
+
+p{
+	padding: 0 20px 0 0px;
+}
+
+#container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 831px;
+	height: 624px;
+	text-align: left;
+	padding: 14px;
+	background: #f2f2f2 url('images/bg.gif') no-repeat;	
+}
+
+#top {
+	position: relative;
+	float: left;
+	width: 802px;
+	height: 211px;
+	text-align: left;
+	background: #07ACA6 url('images/top.gif') repeat-x;
+
+}
+
+
+#body {
+	position: relative;
+	float: left;
+	width: 800px;
+	height: auto;
+	text-align: left;
+	padding: 0px;
+	background: #fff;	
+}
+
+#sidebar{
+	position: relative;
+	float: left;
+	text-align: left;
+	width: 236px;
+	height: 377px;
+	padding: 0px;
+	margin: 3px;
+	font-size: 11px;
+	border: 0px solid #333;
+	font-family: verdana, verdana, genevea, sans-serif;
+	background:  url('images/sidebg.gif') no-repeat;
+	
+	}
+	
+#sidebar p{
+		color: #999;
+		padding: 15px;
+		font-size: 9px;
+		}
+		
+
+
+#menu{
+	float: left;
+	position: relative;
+	
+	width: 220px;
+	height: auto;
+	padding: 0px;
+	font-size: 11px;
+	text-align: left;
+
+}
+
+#menu ul{
+	width: 184px;
+	margin: 10px;
+	padding: 3px;
+	font-family: verdana, verdana, genevea, sans-serif;
+	display: block;
+	list-style: none;
+}
+
+
+#menu ul.sub {
+	width: 20px;
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	font-family: verdana, verdana, genevea, sans-serif;
+	display: block;
+	list-style: none;
+}
+
+
+
+#menu a {
+	display: block;
+	color: #06c;
+	height: 18px;
+	width: 160px;
+	padding-left: 10px;	
+	border-bottom: 0px solid #E7DBBD;
+	line-height: 11px;
+	font-size: 14px;
+	padding-top: 5px;
+	text-decoration: none;
+	font-variant: small-caps;
+
+	}
+
+#menu a:visited {
+
+	text-decoration: none;
+	}
+
+
+#menu a:hover {
+	color: #06c;
+	font-weight: bold;
+	}
+	
+#menu a.active {
+	}
+
+
+
+.underline{
+	text-decoration: underline;
+	}
+
+.center{
+	text-align: center;
+	}
+
+
+#content{
+	position: relative;
+	float: left;
+	width: 542px;
+	height: auto;
+	padding: 0px 5px 0px 10px;
+	margin: 0px;
+	text-align: left;
+
+}
+
+#content ul {
+	display: block;
+	 list-style-type: none;
+	margin: 0px;
+	padding: 2px;
+
+}
+
+
+#content li{
+	 background-image: url("images/arrow.png");
+background-repeat: no-repeat;
+background-position: 0 0;
+padding-left: 14px;
+	}
+
+	
+#content p{
+	color: #666;
+	padding: 5px 0px 5px 0px;
+	}
+
+
+
+#content ul li span {
+	font-size: 10pt;
+	
+	color: #600;
+	width: 190px;
+	padding-top: 0px;
+	padding-right: 0px;
+	text-align: left;
+
+}
+
+#stick{
+	float: left;
+	height: 600px;
+	width: 1px;
+	}
+	
+	
+.box{
+	position: relative;
+	float: right;
+	width: 257px;
+	height: auto;
+	}
+
+.smallbox{
+	position: relative;
+	float: left;
+	width: 265px;
+	height: auto;
+	margin-bottom: 10px;
+	
+	}
+	
+.smallbox li{
+	color: #06c;
+	}
+	
+.smallbox ul li:before {
+	content: "\00BB \0020";
+	}
+	
+span{
+	position: relative;
+	float: left;
+	width: 200px;
+	}
+	
+#footer{
+	position: relative;
+	float: left;
+	width: 800px;
+	height: auto;
+	color: #999;
+	text-align: center;
+	margin: 16px 0px 3px 0px;
+	font-size: 12px;
+}
+
+#footer a{
+	color: #36c;
+	}
+	
+
+img.logo{
+	float: right;
+	clear: right;
+	margin: 1px;
+	}
+
+
+span.cen {
+	text-align: center;
+	vertical-align: top;
+	color: #555;
+}
+
+.cal{
+	position: relative;
+	float:right;
+	width: 180px;
+	height: auto;
+	border: 0px solid #300;
+	}
+	
+.right{
+		float: right;
+		}
+		
+.left{
+		float: left;
+		}
+
+
+-->
+</style>
