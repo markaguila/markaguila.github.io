@@ -1,0 +1,157 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image-test {
+    width: 25%;
+    height: 25%;
+}
+
+.hero-text {
+    width: 45%;
+}
+
+.hero-title {
+    font-size: 28px;
+    margin-top: 22px;
+}
+
+.benefits-list {
+    margin-top: 20px;
+}
+
+.benefits-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+}
+
+.footer-powered-by a {
+    color: #fff;
+}
+
+/* Additions to styles.css for filevision.html */
+
+/* Content Section Styles */
+.content {
+    padding: 50px 0;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.content-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* solution-item Styles */
+.solution-item {
+    margin-bottom: 20px;
+}
